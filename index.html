@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<head>
+	<title>SPERANTZA</title>
+	<link href="./index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<h1 class="title">NUMELE SITEULUI PE CARE CLAR L-AM ALES</h1>
+
+<!--NAVBAR-->
+
+
+<script>
+	window.onscroll = function() {myFunction()};
+
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+	    navbar.classList.add("sticky")
+	  } else {
+	    navbar.classList.remove("sticky");
+	  }
+	}
+</script>
+
+
+<!--Button-->
+<div class="dropdown">
+<!--
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+-->
+<div id="navbar">
+  <a class="active dropbtn" href="javascript:void(0)">Home</a>
+	 <div class="dropdown-content">
+	    <a href="#">a</a>
+	    <a href="#">b</a>
+	    <a href="#">c</a>
+	 </div>
+  <a href="javascript:void(0) dropbtn">News</a>
+	 <div class="dropdown-content">
+	    <a href="#">1</a>
+	    <a href="#">2</a>
+	    <a href="#">3</a>
+  	 </div>
+  <a href="javascript:void(0) dropbtn">Contact</a>
+  	 <div class="dropdown-content">
+	    <a href="#">x</a>
+	    <a href="#">y</a>
+	    <a href="#">z</a>
+	 </div>
+</div>
+
+</div>
+
+	<div class="intro">
+		<h1>INTRO</h1>
+	</div>
+
+	<div class="reciclare">
+		<h1>RECICLARE</h1>
+		<h2>Ce e reciclarea?</h2>
+		<ul>
+			<li>reutilizarea si valorificarea deseurilor in scopuri ecologice;</li>
+			<li>reducerea consumului de materie prima noua si energie;</li>
+			<li>reducerea nivelului de poluare a mediului natural;</li>
+		</ul>
+
+		<h2>De ce sa reciclezi?</h2>
+		<ul class="reasons">
+			<li>ajuta economia</li>
+			<p></p>
+			<li>societate mai buna</li>
+			<p></p>
+			<li>sustenabilitate sociala</li>
+			<p></p>
+
+
+	</div>
+
+	<div class="consumator">
+		<h1>CONSUMATOR RESPONSABIL</h1>
+		<h2>Ce inseamna sa fii un consumator responsabil?</h2>
+		<ul>
+			<li>ceva</li>
+			<li>altceva</li>
+			<li>hmm. hmm.</li>
+
+	</div>
+
+	<div class="sustenabil">
+		<h1>STIL DE VIATA SUSTENABIL</h1>
+	</div>
+
+	<div class="utile">
+		<h3>LINKURI UTILE</h1>
+		<a href="http://www.footprintcalculator.org/?gclid=Cj0KCQjwhoLWBRD9ARIsADIRaxQ9pPAcY_7dDJY_y6PORA3wc2gqgCas5bJhaajdJXNAyiyWFtdQjYcaAp3jEALw_wcB">Calculator footprint</a>
+	</div>
+</body>
